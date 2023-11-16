@@ -1,0 +1,13 @@
+body{background-color: rgb(173, 142, 123);}
+div{;
+width: 400px;
+background-color: aquamarine;
+padding: 100px;
+margin: 100px auto;
+}
+button{
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
