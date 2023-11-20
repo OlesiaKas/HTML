@@ -1,0 +1,40 @@
+.screen{
+    background: brown;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: fantasy
+}
+h1{
+    font-size:5rem ;
+}
+button{
+    background: white;
+    position: fixed;
+    color: aqua;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-family: fantasy;
+    cursor: pointer;
+    border-radius: 0,5rem;
+    box-shadow: ;
+}
+.btnfixed{
+    position: fixed;
+    bottom: 1rem; 
+    right: 1rem;
+}
+.container{
+width: 30rem;
+height: 20rem;
+margin-top: 2rem;
+background: blue;
+border-radius: 5px;
+top: 0;
+z-index: 2;
+}
+.btn-absolut{
+    position: absolute;
+    bottom: 1rem; 
+    left: 1rem;
+}

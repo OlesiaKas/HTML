@@ -1,0 +1,26 @@
+.Nuotrauka{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./rick-rothenberg-C24vfVA7BJg-unsplash.jpg);
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    background-color: rgb(34, 34, 73,0.466);
+    padding: 1rem 0,5rem;
+    margin: 0.5rem 0rem;
+    }
+
+.AbsolutContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 70%;
+    left: 20%;
+}
+.AbsolutContainerP{
+    color: white;
+    background: rgb(32, 19, 19, 0.466);
+    padding: 0.5rem 0.5rem;
+}
