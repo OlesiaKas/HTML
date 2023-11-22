@@ -92,7 +92,7 @@ svg:checked{
 }
 .btn span{
     display: inline-block;
-    border: 1px solid gr#959393;
+    border: 1px solid rgba(56, 56, 60, 0.423);
     border-radius: 100%;
     padding: 0.2rem;
 }
@@ -100,9 +100,9 @@ svg:checked{
     background-color: #ddd;
 }
 .btn span:hover svg {
-    fill:white
+    fill:rgb(58, 52, 52)
 }
 .btn span:active{background-color: #999;}
 .btn span:activ svg{
-    fill: #ccc;
+    fill: green;
 }
