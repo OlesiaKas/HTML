@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    margin: 3rem auto;
+    background-color: azure;
+    width: 276px;
+    position: relative;
+    border-radius: 12px;
+    border: 1px solid;
+    overflow: hidden;
+}
+.cd-swadow-default{
+    box-shadow: 0px 2px 4px 0px rgba(96, 97,112, 0,16), 
+    0px 0px 1px 0px rgba(40, 41, 61, 0,04);
+    background-color: white;}
+.description{
+    background-color: white;
+    margin: 2rem 1rem;
+}
+.degustation h2{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+caption{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+.img{
+    background-image: url(./Image.jpg);
+    width: 276px;
+    height: 176px;
+    background-size: cover;
+    position: relative;
+}
+.calendar{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow:  0px 1px 4px rgba(96, 97, 112, 0.16);
+    text-align: center;
+}
+.day{
+font-size: 1.3rem;
+font-weight: 800;
+}
+.month{
+    font-size: 0.7rem;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+}
+.degustation{
+    color: #959393; 
+    font-size: 14px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 22px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word"
+}
+h5{
+    width: 100%; 
+    color: #121212; 
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: 700; 
+    line-height: 24px;
+    word-wrap: break-word"
+}
+.btn{
+    margin-top: 1rem;
+}
+
+svg:hover{
+    fill: red;
+}
+svg:checked{
+
+}
+.btn span{
+    display: inline-block;
+    border: 1px solid gr#959393;
+    border-radius: 100%;
+    padding: 0.2rem;
+}
+.btn span:hover{
+    background-color: #ddd;
+}
+.btn span:hover svg {
+    fill:white
+}
+.btn span:active{background-color: #999;}
+.btn span:activ svg{
+    fill: #ccc;
+}
