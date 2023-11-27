@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  background: #131417;
+  padding: 2rem;
+  margin: 5rem auto;
+  height: 400px;
+  width: 800px;
+}
+.child {
+  color: #fff;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(34, 34, 37, 0.7);
+}
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 20px;
+}
+img {
+  position: absolute;
+  top: -20%;
+  right: 75%;
+}
