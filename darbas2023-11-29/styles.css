@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  font-family: Inter;
+  background: #d4f1e6;
+  width: 1440px;
+  height: 2139px;
+}
+.main2 {
+}
+.title {
+  color: #1f1f1f;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  padding: 8rem 10rem;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.room {
+  width: 428.483px;
+  height: 456px;
+  border-radius: 62.897px;
+  padding: 1rem 2rem;
+}
+.mount {
+  width: 668.276px;
+  height: 448.138px;
+  border-radius: 62.897px;
+  padding: 1rem 2rem;
+}
+.door {
+  width: 680.069px;
+  height: 456px;
+  border-radius: 62.897px;
+  padding: 1rem 2rem;
+}
+.river {
+  width: 412.759px;
+  height: 456px;
+  border-radius: 62.897px;
+  padding: 1rem 2rem;
+}
+.containerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin: 8rem 12rem;
+  border-radius: 24px;
+}
+.discrTitle {
+  color: #1f1f1f;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+}
+.discr {
+  color: #1f1f1f;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0.5rem 4rem;
+}
+.container {
+  background-color: #fff;
+  width: 500px;
+}
+.sun {
+  width: 342px;
+  height: 532px;
+  border-radius: 24px;
+}
