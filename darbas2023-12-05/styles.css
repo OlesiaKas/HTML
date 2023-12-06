@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  padding: 1rem;
+  color: white;
+}
+.a {
+  background: #00e293;
+}
+.b {
+  background: #be9500;
+}
+.c {
+  background: #80e200;
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+.d {
+  background: #ac00e7;
+}
+.e {
+  background: #ef00a0;
+}
+.f {
+  background: #009ae6;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-auto-columns: minmax(250, 1fr);
+  background-color: black;
+  height: 100vh;
+}

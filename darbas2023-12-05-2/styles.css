@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+.sp {
+  background-color: rgb(210, 232, 233);
+  display: flex;
+  height: 2rem;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+.red {
+  background-color: red;
+  border-radius: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.yelow {
+  background-color: rgb(255, 225, 0);
+  border-radius: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.green {
+  background-color: rgb(123, 255, 0);
+  border-radius: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.logo {
+  background-color: rgb(124, 213, 221);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding: 1rem;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.sidebar {
+  background-color: rgb(125, 191, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  background-color: rgb(173, 234, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.footer {
+  background-color: rgb(242, 223, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  padding: 1rem;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  display: grid;
+  gap: 1rem;
+}
+button {
+  width: 10%;
+}
+.sm {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  height: 60vh;
+}
+.container {
+  display: grid;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  button {
+    display: inherit;
+  }
+}
