@@ -1,0 +1,261 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+/*=================================
+General styles
+===================================*/
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+h2 {
+  color: #404445;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+}
+h2.white {
+  color: white;
+}
+@media only screen and (max-width: 575px) {
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+}
+p.sub-heading {
+  color: #5f6b81;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.188%; /* 22.894px */
+}
+p.sub-heading.white {
+  color: white;
+}
+.btn {
+  padding: 14px 50px;
+}
+.btn-primary {
+  background: #43c45f;
+  border-radius: 5px;
+  border-color: #43c45f;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #40bd5b;
+  border-color: #40bd5b;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*=================================
+General styles (SK)
+===================================*/
+.page-section {
+  padding: 112px 0;
+}
+.page-section .page-section-header-row {
+  text-align: center;
+}
+.page-section .page-section-header-row h2 {
+  margin-bottom: 25px;
+}
+.page-section .page-section-header-row p.sub-heading {
+  width: 100%;
+  max-width: 648px;
+  margin: 0 auto;
+}
+/*=================================
+Styles of navigation
+===================================*/
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar .navbar-brand {
+  color: #878b9b;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+  color: #43c45f;
+}
+.navbar .navbar-toggler {
+  border-color: transparent;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item:not(:first-child) {
+    margin-left: 37px;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #404445;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  font-weight: 900;
+  color: #43c45f;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #43c45f;
+}
+/*=================================
+styles of main page
+===================================*/
+
+/*Header Styles*/
+.home-page header {
+  height: calc(100vh - 80px);
+  background: linear-gradient(rgba(98, 100, 113, 0.5), rgba(98, 100, 113, 0.5)),
+    url(../images/heider.jpg) top center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.home-page header .container,
+.home-page header .container .row {
+  height: 100%;
+}
+.home-page header h1 {
+  color: #fff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 575px) {
+  .home-page header h1 {
+    font-size: 54px;
+    line-height: 63px;
+  }
+}
+.home-page header p {
+  color: #d5d7d8;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 681px;
+  width: 100%;
+  margin: 33px auto 49px;
+}
+/*General informations Styles ...*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home-page .general-information .text-information-col .information-block {
+    margin-bottom: 52px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .home-page
+    .general-information
+    .text-information-col
+    .information-block:nth-child(-n + 2) {
+    margin-bottom: 52px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .home-page .general-information .text-information-col .information-block {
+    margin-bottom: 49px;
+  }
+}
+.home-page .general-information .text-information-col .information-block .icon {
+  color: #49c0fc;
+  font-size: 38px;
+}
+.home-page .general-information .text-information-col .information-block h3 {
+  color: #404445;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 18px 0 10px;
+}
+.home-page .general-information .text-information-col .information-block p {
+  color: #5f6b81;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.188%;
+  margin-bottom: 0;
+}
+.home-page .general-information .photo-col {
+}
+/*=================================
+HOME PAGE - VIDEO SECTION
+===================================*/
+.home-page .video-section {
+  background: #f1f8ff;
+}
+.home-page .video-section .video-col {
+  margin-top: 54px;
+}
+/*=================================
+Stat styles
+===================================*/
+.home-page .stat h3 {
+  margin-top: 70px;
+  color: #404445;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.188%; /* 27.981px */
+}
+.home-page .stat p {
+  color: #404445;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.188%; /* 50.875px */
+}
+hr {
+  width: 80vw;
+  height: 1px;
+  background: #f1f8ff;
+  margin-top: 30px;
+}
+/*=================================
+footer styles
+===================================*/

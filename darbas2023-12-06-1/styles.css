@@ -5,7 +5,7 @@ header {
   height: 15vh;
   background-color: blueviolet;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2rem;
   display: flex;
   justify-content: center;
@@ -15,10 +15,10 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  height: 70vh;
+  height: 60vh;
   gap: 1rem;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2rem;
 }
 aside {
@@ -69,7 +69,7 @@ footer {
   height: 15vh;
   background-color: blueviolet;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2rem;
   display: flex;
   justify-content: center;

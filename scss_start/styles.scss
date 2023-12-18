@@ -1,0 +1,5 @@
+@use "./variebles" as *;
+
+h1 {
+  color: $color;
+}
